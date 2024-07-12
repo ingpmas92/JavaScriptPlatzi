@@ -1,4 +1,4 @@
-// Paso por referencia
+// Paso por valor
 
 let x = 1
 let y = 'Hola'
