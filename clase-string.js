@@ -38,3 +38,50 @@ const hobbie3 = 'estudiar'
 const hobbies = 'Mis hobbies son: '.concat(hobbie1, ' , ', hobbie2, ' , ', hobbie3)
 
 console.log(hobbies)
+
+// Caracteres de escape Error
+// const whatDoIDo = 'I'm Software Engineer'
+
+
+// 1. Escape alternativo
+
+const escapeAlternativo = "I'm Software Engineer"
+
+// 2. Barra invertida
+
+const barraInvertida = 'I\m Software Engineer'
+
+// 3. Template literals
+
+const escapeComillaInvertida = `I'm Software Engineer`
+
+
+// Escritura de Stings Largos
+
+/*
+  Las rosas son rojas,
+  Las violetas son azules,
+  Caracter inesperado,
+  En la linea 86.
+*/
+
+const poema = 'Las rosas son rojas,\n'+
+              'Las violetas son azules,\n'+
+              'Caracter inesperado,\n'+  
+              'En la linea 86.' 
+console.log(poema)
+
+const poema2 = 'Las rosas son rojas,\n\
+Las violetas son azules,\n\
+Caracter inesperado,\n\
+En la linea 86.' 
+console.log(poema2)
+
+const poema3 = `Las rosas son rojas,
+Las violetas son azules,
+Caracter inesperado,
+En la linea 86.` 
+console.log(poema3)
+
+
+
